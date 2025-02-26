@@ -1,0 +1,36 @@
+{
+    "CLASS_NAME": "LightSource",
+    "name": "Soleil - HU60",
+    "electron_beam": {
+        "CLASS_NAME": "ElectronBeam",
+        "energy_in_GeV": 2.75,
+        "energy_spread": 0.0010249999999999999,
+        "current": 0.5,
+        "number_of_bunches": 1,
+        "moment_xx": 5.058935654139851e-08,
+        "moment_xxp": -1.932615553960396e-09,
+        "moment_xpxp": 9.22978179607426e-10,
+        "moment_yy": 1.7775491584158416e-10,
+        "moment_yyp": -4.051445297029703e-11,
+        "moment_ypyp": 2.0358833201887348e-11,
+        "e_x": 0.0002249207783674032,
+        "e_y": 1.3332475983161723e-05,
+        "e_xp": 3.038055594631912e-05,
+        "e_yp": 4.5120763736762424e-06
+    },
+    "magnetic_structure": {
+        "B_vertical": null,
+        "B_horizontal": null,
+        "centre": -1.83,
+        "K_vertical": null,
+        "B_vertical_phase": 0,
+        "B_vertical_symmetry": -1,
+        "K_horizontal": null,
+        "B_horizontal_phase": 0,
+        "B_horizontal_symmetry": 1,
+        "harmonic": 1,
+        "period_length": 0.06,
+        "number_of_periods": 26,
+        "CLASS_NAME": "Undulator"
+    }
+}
